@@ -1,21 +1,25 @@
 <nav class="navbar topnav">
   <div class="container">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="">Home</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">English
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">English</a></li>
-          <li><a href="#">Português</a></li>
-          <li><a href="#">Espanhol</a></li>
-        </ul>
-      </li>
-      <li><a href="">Login</a></li>
-    </ul>
+    <div class="col-12 row justify-content-between">
+      <div class="col row">
+        <div class="active col-1"><a href="">Home</a></div>
+        <div class="col-1"><a href="">Contact</a></div>
+      </div>
+      <div class="col row justify-content-end">
+        <div class="btn-group col-3" dropdown>
+          <a id="button-basic" dropdownToggle class="dropdown-toggle" aria-controls="dropdown-basic">
+            English <span class="caret"></span>
+          </a>
+          <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+            <li role="menuitem"><a class="dropdown-item" href="#">English</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Português</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Espanhol</a></li>
+          </ul>
+        </div>
+        <div class="col-1"><a href="">Login</a></div>
+      </div>
+
+    </div>
   </div>
 </nav>
 
@@ -57,23 +61,28 @@
 </header>
 
 <div class="categoryarea">
-  <nav class="navbar">
-    <div class="container">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Selecione Uma Categoria
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Categoria X</a></li>
-      </ul>
+  <div class="container">
+    <div class="row">
+      <div class="dropdown btn-group col-3" dropdown>
+        <a id="button-basic" dropdownToggle class="dropdown-toggle" aria-controls="dropdown-basic">
+          Selecione Uma Categoria 
+          <span class="caret"></span>
+        </a>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item" href="#">Categoria X</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Categoria X</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Categoria X</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Categoria X</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Categoria X</a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+          Categoria X
+      </div>
     </div>
-  </nav>
+  </div>
 </div>
+
 
 <section>
   <div class="container">
