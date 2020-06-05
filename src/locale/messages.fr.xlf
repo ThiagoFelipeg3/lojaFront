@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="home" datatype="html">
         <source>Home</source>
-        <target>Início</target>
+        <target>Accueil</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">5</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="contact" datatype="html">
         <source>Contact</source>
-        <target>Contato</target>
+        <target>Contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">6</context>
@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="login" datatype="html">
         <source>Login</source>
-        <target>Entrar</target>
+        <target>s'identifier</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">19</context>
@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="allCategories" datatype="html">
         <source>All categories</source>
-        <target>Todas as Categorias</target>
+        <target>toutes catégories</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">40</context>
@@ -39,7 +39,7 @@
               Your cart:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
               <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>R$ 999,99<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
             </source>
-        <target>Seu carrinho:</target>
+        <target>votre panier</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">52</context>
@@ -50,7 +50,7 @@
           Select a Category 
           <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
         </source>
-        <target>Selecione uma Categoria</target>
+        <target>choisissez une catégorie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">71</context>
@@ -58,7 +58,7 @@
       </trans-unit>
       <trans-unit id="featuredProducts" datatype="html">
         <source>Featured Products</source>
-        <target>Produtos em Destaque</target>
+        <target>Produits populaires</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">102</context>
@@ -70,7 +70,7 @@
       </trans-unit>
       <trans-unit id="onsaleProducts" datatype="html">
         <source>On-Sale Products</source>
-        <target>Produtos em promoção</target>
+        <target>Produits en vente</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">127</context>
@@ -78,7 +78,7 @@
       </trans-unit>
       <trans-unit id="topRatedProducts" datatype="html">
         <source>Top Rated Products</source>
-        <target>Produtos mais votados</target>
+        <target>Produits les mieux notés</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">135</context>
@@ -86,7 +86,7 @@
       </trans-unit>
       <trans-unit id="virtualStoreSlogan" datatype="html">
         <source>Virtual Store Slogan</source>
-        <target>Slogan da Loja Virtual</target>
+        <target>Slogan du magasin virtuel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">160</context>
@@ -96,7 +96,7 @@
         <source>
             Virtual Store Address
           </source>
-          <target>Endereço da loja Virtual</target>
+          <target>Adresse du magasin virtuel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">161</context>
@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="categories" datatype="html">
         <source>Categories</source>
-        <target>Categorias</target>
+        <target>Les catégories</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">168</context>
@@ -113,7 +113,7 @@
       </trans-unit>
       <trans-unit id="allRightsReserved" datatype="html">
         <source>© <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Store 2.0<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> - All rights reserved.</source>
-        <target>Loja 2.0 - Todos os direitos reservados</target>
+        <target>Boutique 2.0 - tous les droits sont réservés.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">208</context>

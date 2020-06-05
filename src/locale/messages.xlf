@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="pt" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="home" datatype="html">
         <source>Home</source>
@@ -100,7 +100,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="allRightsReserved" datatype="html">
-        <source>© <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Loja 2.0<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> - Todos os direitos reservados.</source>
+        <source>© <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Store 2.0<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> - All rights reserved.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">208</context>
