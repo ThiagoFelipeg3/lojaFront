@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "lojaFront": {
+      "i18n": {
+        "sourceLocale": "pt",
+        "locales": {
+          "fr": "src/locale/messages.pt.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
