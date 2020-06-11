@@ -1,0 +1,21 @@
+{
+    "header" : {
+        "home": "Home",
+        "contact": "Contact",
+        "login": "Login"
+    },
+    "body": {
+        "allCategories": "All Categories",
+        "yourCart": "Your cart",
+        "selectCategory": "Select category"
+    },
+    "footer": {
+        "featuredProducts": "Featured products",
+        "onSaleProducts": "On-sale products",
+        "topRatedProducts": "Top rated products",
+        "virtualStoreSlogan": "Virtual store Slogan",
+        "virtualStoreAddress": "Virtual Store Address",
+        "categories": "Categories",
+        "boutique": "<span>Store 2.0</span> - All rights reserved."
+    }
+}

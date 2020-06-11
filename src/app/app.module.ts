@@ -28,7 +28,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory, // exported factory function needed for AoT compilation
         deps: [HttpClient]
-      }
+      },
+      defaultLanguage: 'en'
     })
   ],
   providers: [],
