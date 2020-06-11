@@ -4,6 +4,19 @@
         "contact": "Contato",
         "login": "Entrar"
     },
-    "allCategories": "Todas as categorias",
-    "yourCart": "Seu carrinho"
+    "body": {
+        "allCategories": "Todas as Categorias",
+        "yourCart": "Seu carrinho",
+        "selectCategory": "Selecione a categoria"
+    },
+    "footer": {
+        "featuredProducts": "Produtos mais populares",
+        "onSaleProducts": "Produtos em promoção",
+        "topRatedProducts": "Produtos mais votados",
+        "virtualStoreSlogan": "Slogan da loja Virtual",
+        "virtualStoreAddress": "Endereço da loja Virtual",
+        "categories": "Categorias",
+        "boutique": "<span>Loja 2.0</span> - Todos os direitos reservados."
+    }
+
 }
