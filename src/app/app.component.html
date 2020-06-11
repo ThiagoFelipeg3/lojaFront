@@ -2,21 +2,21 @@
   <div class="container">
     <div class="col-12 row justify-content-between">
       <div class="col row">
-        <div class="active col-1"><a href="" i18n="@@home">Home</a></div>
-        <div class="col-1"><a href="" i18n="@@contact">Contact</a></div>
+        <div class="active col-1"><a href="" i18n="@@home">{{ 'header.home' | translate }}</a></div>
+        <div class="col-1"><a href="" i18n="@@contact">{{ 'header.contact' | translate }}</a></div>
       </div>
       <div class="col row justify-content-end">
         <div class="btn-group col-3" dropdown>
           <a id="button-basic" dropdownToggle class="dropdown-toggle" aria-controls="dropdown-basic">
-            English <span class="caret"></span>
+            Language <span class="caret"></span>
           </a>
           <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
-            <li role="menuitem"><a class="dropdown-item" href="#">English</a></li>
-            <li role="menuitem"><a class="dropdown-item" href="#">Português</a></li>
-            <li role="menuitem"><a class="dropdown-item" href="#">Espanhol</a></li>
+            <li role="menuitem"><a class="dropdown-item" (click)="mudarIdioma('en')">English</a></li>
+            <li role="menuitem"><a class="dropdown-item" (click)="mudarIdioma('pt')">Português</a></li>
+            <li role="menuitem"><a class="dropdown-item" (click)="mudarIdioma('fr')">Françes</a></li>
           </ul>
         </div>
-        <div class="col-1"><a href="" i18n="@@login">Login</a></div>
+        <div class="col-1"><a href="" i18n="@@login">{{ "header.login" | translate }}</a></div>
       </div>
 
     </div>
@@ -37,7 +37,7 @@
           <form method="GET">
             <input type="text" name="s" required placeholder="Procure um item" />
             <select name="category">
-              <option value="" i18n="@@allCategories">All categories</option>
+              <option value="" i18n="@@allCategories">{{ "body.allCategories" | translate }}</option>
             </select>
             <input type="submit" value="" />
             </form>
@@ -50,7 +50,7 @@
               <div class="cartqt">9</div>
             </div>
             <div class="carttotal" i18n="@@yourCart">
-              Your cart:<br/>
+              {{ "body.yourCart" | translate }}<br/>
               <span>R$ 999,99</span>
             </div>
           </div>
@@ -69,7 +69,7 @@
           class="dropdown-toggle" 
           aria-controls="dropdown-basic" 
           i18n="@@selectCategory">
-          Select a Category 
+          {{ "body.selectCategory" | translate }}
           <span class="caret"></span>
         </a>
         <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
@@ -99,7 +99,7 @@
           </div>
 
           <div class="widget">
-            <h1 i18n="@@featuredProducts">Featured Products</h1>
+            <h1 i18n="@@featuredProducts">{{ "footer.featuredProducts" | translate }}</h1>
             <div class="widget_body">
               ...
             </div>
@@ -116,7 +116,7 @@
       <div class="row">
       <div class="col-sm-4">
         <div class="widget">
-          <h1 i18n="@@featuredProducts">Featured Products</h1>
+          <h1 i18n="@@featuredProducts">{{ "footer.featuredProducts" | translate }}</h1>
           <div class="widget_body">
             ...
           </div>
@@ -124,7 +124,7 @@
       </div>
       <div class="col-sm-4">
         <div class="widget">
-          <h1 i18n="@@onsaleProducts">On-Sale Products</h1>
+          <h1 i18n="@@onsaleProducts">{{ "footer.onSaleProducts" | translate }}</h1>
           <div class="widget_body">
             ...
           </div>
@@ -132,7 +132,7 @@
       </div>
       <div class="col-sm-4">
         <div class="widget">
-          <h1 i18n="@@topRatedProducts">Top Rated Products</h1>
+          <h1 i18n="@@topRatedProducts">{{ "footer.topRatedProducts" | translate }}</h1>
           <div class="widget_body">
             ...
           </div>
@@ -157,15 +157,15 @@
         <div class="row">
         <div class="col-sm-4">
           <a href=""><img width="150" src="assets/images/logo.png" /></a><br/><br/>
-          <strong i18n="@@virtualStoreSlogan">Virtual Store Slogan</strong><br/><br/>
+          <strong i18n="@@virtualStoreSlogan">{{ "footer.virtualStoreSlogan" | translate }}</strong><br/><br/>
           <p i18n="virtualStoreAddress">
-            Virtual Store Address
+            {{ "footer.virtualStoreAddress" | translate }}
           </p>
         </div>
         <div class="col-sm-8 linkgroups">
           <div class="row">
             <div class="col-sm-4">
-              <h3 i18n="@@categories">Categories</h3>
+              <h3 i18n="@@categories">{{ "footer.categories" | translate }}</h3>
               <ul>
                 <li><a href="#">Categoria X</a></li>
                 <li><a href="#">Categoria X</a></li>
@@ -205,7 +205,7 @@
     <div class="copyright">
       <div class="container">
         <div class="row">
-        <div class="col-sm-6" i18n="@@allRightsReserved">© <span>Store 2.0</span> - All rights reserved.</div>
+        <div class="col-sm-6" i18n="@@allRightsReserved">© {{ "footer.boutique" | translate }}</div>
         <div class="col-sm-6">
           <div class="payments">
             <img src="assets/images/visa.png" />

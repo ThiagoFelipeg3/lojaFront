@@ -1,0 +1,22 @@
+{
+    "header" : {
+        "home": "Accueil",
+        "contact": "Contact",
+        "login": "s'identifier"
+    },
+    "body": {
+        "allCategories": "toutes catégories",
+        "yourCart": "votre panier",
+        "selectCategory": "choisissez une catégorie"
+    },
+    "footer": {
+        "featuredProducts": "Produits populaires",
+        "onSaleProducts": "Produits en vente",
+        "topRatedProducts": "Produits les mieux notés",
+        "virtualStoreSlogan": "Slogan du magasin virtuel",
+        "virtualStoreAddress": "Adresse du magasin virtuel",
+        "categories": "Les catégories",
+        "boutique": "<span>Boutique 2.0</span> - tous les droits sont réservés."
+    }
+
+}

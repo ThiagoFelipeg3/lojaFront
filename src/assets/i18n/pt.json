@@ -1,0 +1,9 @@
+{
+    "header" : {
+        "home": "Início",
+        "contact": "Contato",
+        "login": "Entrar"
+    },
+    "allCategories": "Todas as categorias",
+    "yourCart": "Seu carrinho"
+}
