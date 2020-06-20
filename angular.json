@@ -153,5 +153,8 @@
       }
     }
   },
-  "defaultProject": "lojaFront"
+  "defaultProject": "lojaFront",
+  "cli": {
+    "analytics": "0da548b1-f3b8-4dc5-9614-ad383aa90041"
+  }
 }
