@@ -1,0 +1,52 @@
+.product_item {
+    padding:10px;
+    position: relative;
+}
+.product_item:hover {
+    background-color:#EEE;
+}
+.product_name {
+    font-weight:bold;
+    color:#0000FF;
+}
+.product_brand {
+    color:#000;
+    font-size:11px;
+}
+.product_tags {
+    position:absolute;
+}
+.product_tag {
+    height:30px;
+    line-height: 30px;
+    background-color: #000;
+    float:left;
+    clear:both;
+    padding:0 5px;
+    margin-top:5px;
+    color:#FFF
+}
+.product_tag_red {
+    background-color:#FF0000;
+}
+.product_tag_green {
+    background-color: #00FF00;
+}
+.product_tag_blue {
+    background-color: #0000FF;
+}
+.produca
+.product_price_from,
+.product_price {
+    margin-top:15px;
+}
+.product_price_from {
+    float:left;
+    color:#CCC;
+    font-size:12px;
+}
+.product_price {
+    float:right;
+    color:#000;
+    font-weight:bold;
+}
