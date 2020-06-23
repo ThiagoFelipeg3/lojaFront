@@ -7,9 +7,9 @@
     <div class="product_image">
         <img src="http://lorempixel.com/250/150/" alt="">
     </div>
-    <div class="product_name">Monitor asdasd</div>
-    <div class="product_brand">SONY</div>
-    <div class="product_price_from">R$ 234</div>
-    <div class="product_price">R$ 1213</div>
+    <div class="product_name">{{ product.name }}</div>
+    <div class="product_brand">{{ product.brand.name }}</div>
+    <div class="product_price_from">{{ product.price_from | currency: 'BRL' }}</div>
+    <div class="product_price">{{ product.price | currency: 'BRL' }}</div>
     <div style="clear:both"></div>
 </div>
