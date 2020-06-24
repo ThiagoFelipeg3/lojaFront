@@ -1,4 +1,5 @@
 import { Brand } from './brand';
+import { Image } from './image';
 
 export class Product {
     id: number;
@@ -13,4 +14,5 @@ export class Product {
     featured: number;
     stock: number
     brand: Brand;
+    imagens: Image[]; 
 }
