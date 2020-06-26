@@ -7,7 +7,12 @@
     "body": {
         "allCategories": "toutes catégories",
         "yourCart": "votre panier",
-        "selectCategory": "choisissez une catégorie"
+        "selectCategory": "choisissez une catégorie",
+        "tag": {
+            "sale": "VENTE",
+            "bestseller": "BEST-SELLER",
+            "new": "NOUVEAU"
+        }
     },
     "footer": {
         "featuredProducts": "Produits populaires",

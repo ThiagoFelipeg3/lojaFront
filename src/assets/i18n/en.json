@@ -7,7 +7,12 @@
     "body": {
         "allCategories": "All Categories",
         "yourCart": "Your cart",
-        "selectCategory": "Select category"
+        "selectCategory": "Select category",
+        "tag": {
+            "sale": "SALE",
+            "bestseller": "BESTSELLER",
+            "new": "NEW"
+        }
     },
     "footer": {
         "featuredProducts": "Featured products",

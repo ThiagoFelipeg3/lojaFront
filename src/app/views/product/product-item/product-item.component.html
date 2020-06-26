@@ -1,8 +1,8 @@
 <div class="product_item">
     <div class="product_tags">
-        <div class="product_tag product_tag_red" *ngIf="product.sale">SALE</div>
-        <div class="product_tag product_tag_green" *ngIf="product.bestseller">BESTSELLER</div>
-        <div class="product_tag product_tag_blue" *ngIf="product.new_product">NEW!</div>
+        <div class="product_tag product_tag_red" *ngIf="product.sale">{{ 'body.tag.sale' | translate }}</div>
+        <div class="product_tag product_tag_green" *ngIf="product.bestseller">{{ 'body.tag.bestseller' | translate }}</div>
+        <div class="product_tag product_tag_blue" *ngIf="product.new_product">{{ 'body.tag.new' | translate }}!</div>
     </div>
     <div class="product_image">
         <img src="{{ product.imagens[0].url }}" width="100%">

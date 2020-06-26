@@ -7,7 +7,12 @@
     "body": {
         "allCategories": "Todas as Categorias",
         "yourCart": "Seu carrinho",
-        "selectCategory": "Selecione a categoria"
+        "selectCategory": "Selecione a categoria",
+        "tag": {
+            "sale": "PROMOÇÂO",
+            "bestseller": "MELHORES",
+            "new": "NOVO"
+        }
     },
     "footer": {
         "featuredProducts": "Produtos mais populares",
