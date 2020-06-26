@@ -1,15 +1,15 @@
 <div class="product_item">
     <div class="product_tags">
-        <div class="product_tag product_tag_red">SALE</div>
-        <div class="product_tag product_tag_green">BESTSELLER</div>
-        <div class="product_tag product_tag_blue">NEW!</div>
+        <div class="product_tag product_tag_red" *ngIf="product.sale">SALE</div>
+        <div class="product_tag product_tag_green" *ngIf="product.bestseller">BESTSELLER</div>
+        <div class="product_tag product_tag_blue" *ngIf="product.new_product">NEW!</div>
     </div>
     <div class="product_image">
-        <img src="http://lorempixel.com/250/150/" alt="">
+        <img src="{{ product.imagens[0].url }}" width="100%">
     </div>
     <div class="product_name">{{ product.name }}</div>
     <div class="product_brand">{{ product.brand.name }}</div>
-    <div class="product_price_from">{{ product.price_from | currency: 'BRL' }}</div>
+    <div class="product_price_from">{{ product.price_from || '' | currency: 'BRL' }}</div>
     <div class="product_price">{{ product.price | currency: 'BRL' }}</div>
     <div style="clear:both"></div>
 </div>
