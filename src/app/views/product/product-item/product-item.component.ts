@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { Product } from 'src/app/model/product/product';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-product-item',
@@ -11,9 +12,14 @@ export class ProductItemComponent implements OnInit {
 
   @Input() product: Product;
 
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
+    this.translate.onLangChange.subscribe(
+      (event: LangChangeEvent) => {
+        this.translate.use(event.lang);
+      }
+    )
   }
 
 }
