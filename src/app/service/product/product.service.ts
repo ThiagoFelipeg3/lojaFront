@@ -1,15 +1,15 @@
 import { Injectable } from '@angular/core';
-import { of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
 
-  constructor() { }
-
+  constructor(private httpClient: HttpClient) { }
 
   getProducts() {
-    return of([{"id":1,"id_category":6,"id_brand":1,"name":"Monitor 21 polegadas","description":"Alguma descri\u00e7\u00e3o do produto.","stock":10,"price":499,"price_from":599,"rating":0,"featured":0,"sale":1,"bestseller":1,"new_product":0,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":1,"name":"LG"},"imagens":[{"id":1,"id_product":1,"url":"1.jpg"}]},{"id":2,"id_category":6,"id_brand":2,"name":"Monitor 18 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":399,"price_from":999,"rating":0,"featured":0,"sale":0,"bestseller":1,"new_product":0,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":2,"name":"Samsung"},"imagens":[{"id":2,"id_product":2,"url":"2.jpg"}]},{"id":3,"id_category":6,"id_brand":2,"name":"Monitor 19 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":599,"price_from":699,"rating":0,"featured":0,"sale":0,"bestseller":0,"new_product":1,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":2,"name":"Samsung"},"imagens":[{"id":3,"id_product":3,"url":"3.jpg"}]},{"id":4,"id_category":6,"id_brand":3,"name":"Monitor 17 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":779,"price_from":900,"rating":0,"featured":0,"sale":0,"bestseller":0,"new_product":0,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":3,"name":"AOC"},"imagens":[{"id":4,"id_product":4,"url":"4.jpg"}]},{"id":5,"id_category":6,"id_brand":1,"name":"Monitor 20 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":299,"price_from":499,"rating":0,"featured":0,"sale":0,"bestseller":0,"new_product":1,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":1,"name":"LG"},"imagens":[{"id":5,"id_product":5,"url":"1.jpg"}]},{"id":6,"id_category":6,"id_brand":3,"name":"Monitor 20 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":699,"price_from":0,"rating":0,"featured":0,"sale":0,"bestseller":0,"new_product":0,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":3,"name":"AOC"},"imagens":[{"id":6,"id_product":6,"url":"3.jpg"}]},{"id":7,"id_category":6,"id_brand":3,"name":"Monitor 19 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":889,"price_from":999,"rating":0,"featured":0,"sale":0,"bestseller":0,"new_product":0,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":3,"name":"AOC"},"imagens":[{"id":7,"id_product":7,"url":"7.jpg"}]},{"id":8,"id_category":6,"id_brand":1,"name":"Monitor 18 polegadas","description":"Alguma outra descri\u00e7\u00e3o","stock":10,"price":599,"price_from":699,"rating":0,"featured":0,"sale":0,"bestseller":0,"new_product":0,"options":null,"categorie":{"id":6,"sub":null,"name":"Monitor"},"brand":{"id":1,"name":"LG"},"imagens":[{"id":8,"id_product":8,"url":"7.jpg"}]}]);
+    return this.httpClient.get(`${environment.apiHost}/products`);
   }
 }
