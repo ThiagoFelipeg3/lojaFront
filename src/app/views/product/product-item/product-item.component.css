@@ -3,11 +3,11 @@
     position: relative;
 }
 .product_item:hover {
-    background-color:#EEE;
+    border: 1px solid #EEE;
 }
 .product_name {
     font-weight:bold;
-    color:#0000FF;
+    color:#0e53a5;
 }
 .product_brand {
     color:#000;
@@ -27,13 +27,13 @@
     color:#FFF
 }
 .product_tag_red {
-    background-color:#FF0000;
+    background-color:#f8484a;
 }
 .product_tag_green {
-    background-color: #00FF00;
+    background-color: #59b210;
 }
 .product_tag_blue {
-    background-color: #0000FF;
+    background-color: #407ac5;
 }
 .product_price_from,
 .product_price {
