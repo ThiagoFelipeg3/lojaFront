@@ -14,5 +14,5 @@ export class Product {
     featured: number;
     stock: number
     brand: Brand;
-    imagens: Image[]; 
+    imagens: Image[];
 }
