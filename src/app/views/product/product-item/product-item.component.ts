@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { Product } from 'src/app/model/product/product';
+import { Product } from 'src/app/model/product';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({

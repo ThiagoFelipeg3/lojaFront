@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Image } from 'src/app/model/image';
+import { Pagination } from 'src/app/model/pagination';
+import { Product } from 'src/app/model/product';
 import { ProductService } from 'src/app/service/product/product.service';
+import { ProductModule } from '../product.module';
 
 @Component({
   selector: 'app-list-products',
@@ -8,14 +12,14 @@ import { ProductService } from 'src/app/service/product/product.service';
 })
 export class ListProductsComponent implements OnInit {
 
-  public products: any[];
+  public products: Image[];
 
   constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe(
-      (products: any[]) => {
-        this.products = products;
+      (paginationProducts: Pagination<Product>) => {
+        this.products = paginationProducts.data;
       }
     );
   }
