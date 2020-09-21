@@ -12,7 +12,7 @@ import { ProductModule } from '../product.module';
 })
 export class ListProductsComponent implements OnInit {
 
-  public products: Image[];
+  public products: Product[];
 
   constructor(private productService: ProductService) { }
 
